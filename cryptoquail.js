@@ -2,7 +2,12 @@ class quail {
   getInfo() {return{
     id: "cryptoquail",
     name: "CryptoQuail",
-    blocks: [{opcode: "crypt", blockType: Scratch.BlockType.REPORTER, text: "Encrypt/Decrypt: Message [M] | Key [K]", arguments: {M: {type: Scratch.ArgumentType.STRING, defaultValue: ""}, K: {M: {type: Scratch.ArgumentType.STRING, defaultValue: ""}}}]
+    blocks: [{opcode: "crypt", blockType: Scratch.BlockType.REPORTER,
+              text: "Encrypt/Decrypt: Message [M] | Key [K]",
+              arguments: {M: {type: Scratch.ArgumentType.STRING, defaultValue: ""}, K: {M: {type: Scratch.ArgumentType.STRING, defaultValue: ""}
+               }
+               
+               ]
   }};
 }
 function encode(string) {
