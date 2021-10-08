@@ -4,7 +4,7 @@ class quail {
     name: "CryptoQuail",
     blocks: [{opcode: "crypt", blockType: Scratch.BlockType.REPORTER,
               text: "Encrypt/Decrypt: Message [M] | Key [K]",
-              arguments: {M: {type: Scratch.ArgumentType.STRING, defaultValue: ""}, K: {M: {type: Scratch.ArgumentType.STRING, defaultValue: ""}
+              arguments: {M: {type: Scratch.ArgumentType.STRING, defaultValue: ""}, K: {type: Scratch.ArgumentType.STRING, defaultValue: ""}
                }
                
                ]
