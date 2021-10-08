@@ -18,7 +18,7 @@ class quail {
                             defaultValue: ""
                         }
                     }
-
+                }
                 ]
             }
         };
