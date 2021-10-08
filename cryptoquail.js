@@ -22,7 +22,7 @@ class quail {
                 ]
             }
         };
-      }
+      
 
     function charCodeAt(input) {
         var keys = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#%&()*^$@`~-_=][+{\ }|</>,.;:'\"";
