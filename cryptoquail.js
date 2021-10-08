@@ -24,7 +24,7 @@ class quail {
         };
       
 
-    function charCodeAt(input) {
+    charCodeAt(input) {
         var keys = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#%&()*^$@`~-_=][+{\ }|</>,.;:'\"";
         var values = [];
         for (var k = 0; k < keys.length; k++) {
@@ -37,7 +37,7 @@ class quail {
         }
     }
 
-    function fromCharCode(input) {
+    fromCharCode(input) {
         var keys = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#%&()*^$@`~-_=][+{\ }|</>,.;:'\"";
         var values = [];
         for (var k = 0; k < keys.length; k++) {
@@ -50,7 +50,7 @@ class quail {
         }
     }
 
-    function encode(string) {
+    encode(string) {
         var number = "0x";
         var length = string.length;
         for (var i = 0; i < length; i++){
@@ -58,7 +58,7 @@ class quail {
         return number;
     }
 
-    function crypt(arg) {
+    crypt(arg) {
         var key = arg.K;
         var input = arg.M;
         var key = key.split('');
