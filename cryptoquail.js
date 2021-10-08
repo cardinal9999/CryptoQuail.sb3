@@ -70,4 +70,4 @@ class quail {
         return output.join("");
     }
 }
-Scratch.extensions.register(new quail)
+Scratch.extensions.register(new quail())
