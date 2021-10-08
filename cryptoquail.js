@@ -47,5 +47,5 @@ function crypt(arg) {
         output.push(fromCharCode(charCode));
         }
     return output.join("");
-}
+}}
 Scratch.extensions.register(new quail)
