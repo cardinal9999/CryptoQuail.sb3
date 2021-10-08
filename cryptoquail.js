@@ -3,7 +3,8 @@ class quail {
         return {
             id: "cryptoquail",
             name: "CryptoQuail",
-            blocks: [{
+            blocks: [
+                {
                     opcode: "crypt",
                     blockType: Scratch.BlockType.REPORTER,
                     text: "Encrypt/Decrypt: Message [M] | Key [K]",
@@ -21,7 +22,7 @@ class quail {
                 ]
             }
         };
-    
+      }
 
     function charCodeAt(input) {
         var keys = "1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#%&()*^$@`~-_=][+{\ }|</>,.;:'\"";
@@ -70,4 +71,4 @@ class quail {
         return output.join("");
     }
 }
-Scratch.extensions.register(new quail())
+Scratch.extensions.register(new quail());
