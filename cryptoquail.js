@@ -20,8 +20,8 @@ class quail {
                     }
                 }
                 ]
-            }
-        };
+            };
+        }
       
 
     charCodeAt(input) {
@@ -32,7 +32,7 @@ class quail {
         }
         for (var i = 0; i < keys.length; i++) {
             if (keys[i] === input) {
-                return values[i]
+                return values[i];
             }
         }
     }
@@ -45,7 +45,7 @@ class quail {
         }
         for (var i = 0; i < keys.length; i++) {
             if (values[i] === input) {
-                return keys[i]
+                return keys[i];
             }
         }
     }
@@ -61,7 +61,7 @@ class quail {
     crypt(arg) {
         var key = arg.K;
         var input = arg.M;
-        var key = key.split('');
+        key = key.split('');
         var output = [];
         int1 = encode(key) % 20;
         for (var i = 0; i < input.length; i++) {
