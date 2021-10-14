@@ -61,7 +61,6 @@ class quail {
     crypt(arg) {
         var key = arg.K;
         var input = arg.M;
-        key = key.split("");
         var output = [];
         int1 = encode(key) % 20;
         for (var i = 0; i < input.length; i++) {
