@@ -11,11 +11,11 @@ class quail {
                     arguments: {
                         M: {
                             type: Scratch.ArgumentType.STRING,
-                            defaultValue: ""
+                            defaultValue: "penguins"
                         },
                         K: {
                             type: Scratch.ArgumentType.STRING,
-                            defaultValue: ""
+                            defaultValue: "123"
                         }
                     }
                 }
@@ -61,7 +61,7 @@ class quail {
     crypt(arg) {
         var key = arg.K;
         var input = arg.M;
-        key = key.split('');
+        key = key.split("");
         var output = [];
         int1 = encode(key) % 20;
         for (var i = 0; i < input.length; i++) {
